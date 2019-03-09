@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Coon, Cat or Bear??</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+<header>
+    <h1>Coon, Cat <span>or</span> Bear<span>?</span></h1>
+</header>
+
+<div id="info">
+    <input type="text" id="userName" name="username" placeholder="What is your Name?" />
+    <button id="submitUsername">Start Game!</button>
+</div>
+
+<div id="flashcard" class="slide-01" style="background-image: url('images/01.jpg')">
+<span id="score">0</span>
+</div>
+<div id="answer-key" class="row">
+    <div class="column-3 selector coon">Coon</div>
+    <div class="column-3 selector cat">Cat</div>
+    <div class="column-3 selector bear">Bear</div>
+</div>
+
+<div id="final-score">
+<p class="userResult"></p>
+<table id="highscore">
+<thead>
+<tr>
+    <th colspan="3">Highscores</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>Date</td>
+    <td>Name</td>
+    <td>Score</td>
+</tr>
+</tbody>
+</table>
+<button id="restart">Restart Game</button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/functions.js"></script>
+</body>
+</html>
+<!--
+Create 2 new files, one for your HTML, and one for your Javascript. 
+Add jQuery to your HTML and link your custom JavaScript file. 
+
+For project ideas see: https://github.com/HackerYou/con-ed-js-fundamentals-student-notes/blob/master/Projects/javascript-jquery-project.md
+
+Requirements for this project are: 
+1. Using the jQuery library
+2. Interact with the HTML using events (such as a click)
+3. Take input from the user
+4. Update and edit HTML with jQuery
+5. Nice looking HTML + CSS to go along with the jQuery
+6. Have some sort of computed logic in it
+7. Separate files for html and js
+
+Once you choose your project idea, use pseudo code to get started.
+
+DUE: End of the day after the last fundamentals class (March 9, 11:59PM).
+
+TO SUBMIT YOUR ASSIGNMENT:
+Please name your project folder `your_name_project1` and then .zip it. 
+Email projects to jennyveens@gmail.com. Projects will be marked within 10 days from the due date, and in the order they are recieved. 
+
+Any problems or concerns, please feel free to reach out on slack (@jenny).
+-->
